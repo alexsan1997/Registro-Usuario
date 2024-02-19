@@ -1,5 +1,27 @@
 
-# Welcome to your CDK Python project!
+# User registration project with aws cdk python!
+
+This AWS CDK project in Python is designed to create a user registration and authentication application using various AWS services, such as Lambda, API Gateway, DynamoDB and SES
+
+Make sure you have the AWS CDK installed in your development environment. You can install it using pip:
+
+```
+pip install -g aws-cdk
+```
+
+Also, make sure you have Python installed on your system.
+
+Create a new directory for your CDK project and navigate to it in your terminal. Then, run the following command to start a new CDK project in Python:
+
+```
+cdk init app --language python
+```
+
+Also install boto3
+
+```
+install boto3
+```
 
 This is a blank project for CDK development with Python.
 
